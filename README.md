@@ -12,6 +12,8 @@ Requirements:
 
 
 Instructions:
-- Put `export_points.py` in your Phantombot folder. This is the same folder as `Phantombot.jar`.
+- Put `export_points.py` in your Phantombot* folder. This is the same folder as `Phantombot.jar`.
 - On the command line (`cmd.exe` for Windows, `Terminal` for macOS), enter `python export_points.py` and press enter.
 - If it was successful, you'll see the following message: `[+] Success! You can upload the points-export.csv file to streamlabs (https://streamlabs.com/dashboard#/accountsettings)!`
+
+**Note:** If you have Phantombot 2.3.9 or above, put `export_points.py` in the `config/` folder
