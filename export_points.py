@@ -42,7 +42,7 @@ if __name__ == '__main__':
 	db = pathlib.Path('./phantombot.db')
 
 	if not db.exists():
-		print('[-] Could not find phantombot database.')
+		print('[-] Could not find Phantombot database.')
 		print('[-] If you use MySQL for phantombot, please comment on https://github.com/h4ckninja/phantombot2streamlabs/issues/1')
 
 	else:
